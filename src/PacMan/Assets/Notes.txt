@@ -1,0 +1,2 @@
+- Change camera size later
+- Adjust camera position later
