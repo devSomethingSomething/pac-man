@@ -4,3 +4,5 @@
 - Clean up layers later
 
 - Change sprite import settings if required
+
+- Edit tile collision shapes later
