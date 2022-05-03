@@ -1,2 +1,4 @@
 - Change camera size later
 - Adjust camera position later
+
+- Clean up layers later
