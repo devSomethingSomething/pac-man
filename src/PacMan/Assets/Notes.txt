@@ -7,3 +7,7 @@
 
 - Edit tile collision shapes later
 - Remove tiles later if needed, such as for the pellets
+- Add door as rule tile, rotate sprite in sprite editor, remove prefab in scene
+
+- Clean up scripts, like game manager
+- Recheck scripts
