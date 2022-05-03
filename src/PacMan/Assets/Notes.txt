@@ -2,3 +2,5 @@
 - Adjust camera position later
 
 - Clean up layers later
+
+- Change sprite import settings if required
