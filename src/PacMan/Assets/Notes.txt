@@ -6,3 +6,4 @@
 - Change sprite import settings if required
 
 - Edit tile collision shapes later
+- Remove tiles later if needed, such as for the pellets
