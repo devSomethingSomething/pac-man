@@ -16,8 +16,6 @@
 
 - Use tags instead of layers if needed
 
-- Add settings script to control the fps
-
 - Create physics material for pac, under folder physics
 
 --- Rotation code
