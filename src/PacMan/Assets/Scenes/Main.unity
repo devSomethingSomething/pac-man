@@ -167,7 +167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92ba648f48d38b346bd3cf55906401e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cherries: {fileID: 1896301134}
 --- !u!1 &199336183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3952,7 +3951,7 @@ CompositeCollider2D:
   m_GameObject: {fileID: 199336183}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 6d067238f694a2a4fb514b146d64a1a7, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
