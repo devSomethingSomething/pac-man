@@ -15,8 +15,3 @@
 - Add sprite sorting layers if needed
 
 - Use tags instead of layers if needed
-
---- Rotation code
-// Just change the movement.direction to something else
-float angle = Mathf.Atan2(movement.direction.y, movement.direction.x);
-transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.forward);
