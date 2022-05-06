@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4990660473804808585}
   - component: {fileID: 2593407577060107190}
   - component: {fileID: 2995362511315440158}
+  - component: {fileID: -3806545648236381571}
   m_Layer: 6
   m_Name: Pac
   m_TagString: Untagged
@@ -123,3 +124,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-3806545648236381571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4990660473804808584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2c84d4300f0ea945bb6fc909ca198ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
