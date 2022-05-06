@@ -16,8 +16,6 @@
 
 - Use tags instead of layers if needed
 
-- Create physics material for pac, under folder physics
-
 --- Rotation code
 // Just change the movement.direction to something else
 float angle = Mathf.Atan2(movement.direction.y, movement.direction.x);
