@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6195754833621408780}
   - component: {fileID: 6195754833621408783}
   - component: {fileID: 6195754833621408782}
+  - component: {fileID: 7617993330066892989}
   m_Layer: 9
   m_Name: Cherry
   m_TagString: Untagged
@@ -101,3 +102,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &7617993330066892989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6195754833621408769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74988bb22fb5c0468b9245f2eabc98e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
