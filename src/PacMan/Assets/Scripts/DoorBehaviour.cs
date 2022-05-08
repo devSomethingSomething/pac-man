@@ -5,8 +5,6 @@ public class DoorBehaviour : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         DisablePac(collision);
-        
-        // Add text stuff here
     }
 
     private void DisablePac(Collider2D collision)
@@ -23,6 +21,8 @@ public class DoorBehaviour : MonoBehaviour
             {
                 collider.enabled = false;
             }
+
+            WinBehaviour.EnableWinText();
         }
     }
 }
