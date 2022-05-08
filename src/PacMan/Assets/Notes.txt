@@ -19,4 +19,4 @@ key pressed movement
 
 - Use tags instead of layers if needed
 
-- Update text with instructions on how to reload the game
+- Add other ghost

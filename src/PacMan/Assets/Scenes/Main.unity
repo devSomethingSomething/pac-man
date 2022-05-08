@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92ba648f48d38b346bd3cf55906401e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cherries: []
+  cherries: {fileID: 1896301134}
 --- !u!1 &199336183
 GameObject:
   m_ObjectHideFlags: 0
