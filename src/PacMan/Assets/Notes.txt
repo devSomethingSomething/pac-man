@@ -19,6 +19,4 @@ key pressed movement
 
 - Use tags instead of layers if needed
 
-- Add pac and ghost collision logic
-
 - Update text with instructions on how to reload the game

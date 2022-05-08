@@ -13,6 +13,8 @@ public class PelletBehaviour : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Pac"))
         {
+            enabled = false;
+
             gameObject.SetActive(false);
 
             GameManager.IncreaseScore(POINTS_VALUE);
