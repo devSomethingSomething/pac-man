@@ -7281,6 +7281,7 @@ GameObject:
   - component: {fileID: 1607544258}
   - component: {fileID: 1607544260}
   - component: {fileID: 1607544259}
+  - component: {fileID: 1607544261}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -7405,6 +7406,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607544257}
   m_CullTransparentMesh: 1
+--- !u!114 &1607544261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607544257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f73bc2c81d54d648853af50e9f5e137, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1691887297
 GameObject:
   m_ObjectHideFlags: 0
@@ -7760,7 +7773,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0

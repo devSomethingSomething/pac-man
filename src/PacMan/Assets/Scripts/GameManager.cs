@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     public static void IncreaseScore(int increaseAmount)
     {
         score += increaseAmount;
+
+        ScoreBehaviour.UpdateScoreText(score);
     }
 
     public static void DecreaseCherryCount()
