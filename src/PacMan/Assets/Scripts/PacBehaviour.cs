@@ -9,9 +9,13 @@ public class PacBehaviour : MonoBehaviour
 
     private new Rigidbody2D rigidbody2D;
 
+    private Collider2D[] colliders;
+
     private void Awake()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+
+        colliders = GetComponents<Collider2D>();
     }
 
     private void Update()
@@ -35,5 +39,32 @@ public class PacBehaviour : MonoBehaviour
         angle = Mathf.Atan2(rigidbody2D.velocity.y, rigidbody2D.velocity.x);
 
         transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.forward);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        HandleGhostCollision(collision);
+    }
+
+    private void HandleGhostCollision(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ghost"))
+        {
+            DisablePac();
+
+            LoseBehaviour.EnableLoseText();
+        }
+    }
+
+    private void DisablePac()
+    {
+        enabled = false;
+
+        rigidbody2D.velocity = Vector2.zero;
+
+        foreach (var collider in colliders)
+        {
+            collider.enabled = false;
+        }
     }
 }
