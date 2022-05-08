@@ -18,3 +18,5 @@ key pressed movement
 - Add sprite sorting layers if needed
 
 - Use tags instead of layers if needed
+
+- Adjust movement to lock constraints on rigidbody on input, will prevent weird movement bugs

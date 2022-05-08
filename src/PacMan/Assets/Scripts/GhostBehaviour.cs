@@ -3,7 +3,8 @@ using UnityEngine;
 enum Direction
 {
     Horizontal,
-    Vertical
+    Vertical,
+    Diagonal
 }
 
 public class GhostBehaviour : MonoBehaviour
@@ -46,6 +47,9 @@ public class GhostBehaviour : MonoBehaviour
             case Direction.Vertical:
                 rigidbody2D.velocity = Vector2.up * speed;
                 rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX;
+                break;
+            case Direction.Diagonal:
+                rigidbody2D.velocity = (Vector2.right + Vector2.up) * speed;
                 break;
         }
     }
