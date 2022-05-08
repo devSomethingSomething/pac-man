@@ -1,4 +1,2 @@
 - Adjust pac movement, perhaps give option for continuous movement or
 key pressed movement
-
-- Adjust movement to lock constraints on rigidbody on input, will prevent weird movement bugs
