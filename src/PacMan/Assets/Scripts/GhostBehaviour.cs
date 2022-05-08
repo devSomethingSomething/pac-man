@@ -41,9 +41,11 @@ public class GhostBehaviour : MonoBehaviour
         {
             case Direction.Horizontal:
                 rigidbody2D.velocity = Vector2.right * speed;
+                rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionY;
                 break;
             case Direction.Vertical:
                 rigidbody2D.velocity = Vector2.up * speed;
+                rigidbody2D.constraints = RigidbodyConstraints2D.FreezePositionX;
                 break;
         }
     }
