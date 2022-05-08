@@ -30,6 +30,10 @@ public class PacBehaviour : MonoBehaviour
         {
             rigidbody2D.velocity = direction * Input.GetAxisRaw(axisName) * speed;
 
+            rigidbody2D.constraints = RigidbodyConstraints2D.None;
+            rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+            rigidbody2D.constraints = string.Equals(axisName, "Horizontal") ? RigidbodyConstraints2D.FreezePositionY : RigidbodyConstraints2D.FreezePositionX;
+
             SetRotation();
         }
     }
