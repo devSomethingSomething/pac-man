@@ -1,22 +1,4 @@
-- Change camera size later
-- Adjust camera position later
-
-- Clean up layers later
-
-- Change sprite import settings if required
-
-- Edit tile collision shapes later, perhaps use square colliders instead of rounded ones
-- Remove tiles later if needed, such as for the pellets
-- Add door as rule tile, rotate sprite in sprite editor, remove prefab in scene
-
-- Clean up scripts, like game manager
-- Recheck scripts
-
 - Adjust pac movement, perhaps give option for continuous movement or
 key pressed movement
-
-- Add sprite sorting layers if needed
-
-- Use tags instead of layers if needed
 
 - Adjust movement to lock constraints on rigidbody on input, will prevent weird movement bugs
