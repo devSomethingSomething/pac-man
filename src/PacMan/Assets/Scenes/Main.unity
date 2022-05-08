@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cherries: {fileID: 1896301134}
+  door: {fileID: 1811712411}
 --- !u!1 &199336183
 GameObject:
   m_ObjectHideFlags: 0
@@ -7859,6 +7860,11 @@ PrefabInstance:
 --- !u!4 &1811712410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8499183139337295328, guid: df253357e8128e6439af4873170cd1fe, type: 3}
+  m_PrefabInstance: {fileID: 1811712409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1811712411 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 8499183139337295338, guid: df253357e8128e6439af4873170cd1fe, type: 3}
   m_PrefabInstance: {fileID: 1811712409}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1896301133

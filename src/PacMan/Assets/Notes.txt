@@ -18,5 +18,3 @@ key pressed movement
 - Add sprite sorting layers if needed
 
 - Use tags instead of layers if needed
-
-- Add other ghost
